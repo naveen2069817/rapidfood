@@ -67,7 +67,7 @@ try {
 
 //get user
 
-router.post('/getuser', fetch, async (req, res) => {
+/*router.post('/getuser', fetch, async (req, res) => {
     try {
         const userId = req.user.id;
         const user = await User.findById(userId).select("-password") // -password will not pick password from db.
@@ -77,7 +77,7 @@ router.post('/getuser', fetch, async (req, res) => {
         res.send("Server Error")
 
     }
-})
+})*/
 
 //geolocation
 
